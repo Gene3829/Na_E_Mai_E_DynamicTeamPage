@@ -25,7 +25,7 @@ a {
 /* EUGENE'S PAGE =============================================================== */
 
 .eugene {
-    background-color: #5CDB95;
+    background-color: #45b6f1;
     left: 0;
     top: 0;
     width: 100%;
@@ -64,7 +64,7 @@ a {
 }
 
 .eugene main h4 {
-	margin-top: 10px;
+	margin-top: 5px;
 	font-size: 25px;
 	font-weight: bold;
 }
@@ -72,11 +72,21 @@ a {
 .eugene main ul {
 	margin: 50px auto;
 	font-size: 20px;
+	font-weight: bold;
 }
 
 .eugene main ul li {
 	margin-bottom: 30px;
 	line-height: 25px;
+}
+
+.eugene main p {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.eugene main span {
+	font-weight: bold;
 }
 
 @media screen and (max-width: 552px) {
@@ -91,7 +101,7 @@ a {
 	}
 }
 
-.switch {	
+.switch1 {	
 	margin: 20px 20px;
 	display: block;
 	width: 150px;
@@ -106,7 +116,7 @@ a {
 	transition: all .2s ease-in-out;
 }
 
-.switch:hover {
+.switch1:hover {
     -webkit-transform: scale(1.1, 1.1);
     -moz-transform: scale(1.1, 1.1);
 	background-color: #8EE4AF;
@@ -122,7 +132,7 @@ a {
 .evica {
     display: none;
     position: absolute;
-    background-color: #45b6f1;
+    background-color: #ffd1dc;
     left: 0;
     top: 0;
     width: 100%;
@@ -161,7 +171,7 @@ a {
 }
 
 .evica main h4 {
-	margin-top: 10px;
+	margin-top: 5px;
 	font-size: 25px;
 	font-weight: bold;
 }
@@ -169,11 +179,21 @@ a {
 .evica main ul {
 	margin: 50px auto;
 	font-size: 20px;
+	font-weight: bold;
 }
 
 .evica main ul li {
 	margin-bottom: 30px;
 	line-height: 25px;
+}
+
+.evica main p {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.evica main span {
+	font-weight: bold;
 }
 
 @media screen and (max-width: 552px) {
@@ -186,4 +206,27 @@ a {
 		max-width: 500px;
 		min-width: 100px;
 	}
+}
+
+.switch2 {	
+	margin: 20px 20px;
+	display: block;
+	width: 150px;
+	color: #000;
+	text-align: center;
+	font-size: 19px;
+	font-weight: bold;
+	border: 2px solid #000;
+	border-radius: 5px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	transition: all .2s ease-in-out;
+}
+
+.switch2:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+	background-color: #8EE4AF;
+	color: #000;
+	border: 2px solid #fff;
 }
