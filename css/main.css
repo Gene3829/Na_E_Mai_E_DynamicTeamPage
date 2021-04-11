@@ -25,7 +25,7 @@ a {
 /* EUGENE'S PAGE =============================================================== */
 
 .eugene {
-    background-color: #5CDB95;
+    background-color: #45b6f1;
     left: 0;
     top: 0;
     width: 100%;
@@ -132,7 +132,7 @@ a {
 .evica {
     display: none;
     position: absolute;
-    background-color: ##ffd1e8;
+    background-color: #ffd1dc;
     left: 0;
     top: 0;
     width: 100%;
@@ -206,4 +206,27 @@ a {
 		max-width: 500px;
 		min-width: 100px;
 	}
+}
+
+.switch2 {	
+	margin: 20px 20px;
+	display: block;
+	width: 150px;
+	color: #000;
+	text-align: center;
+	font-size: 19px;
+	font-weight: bold;
+	border: 2px solid #000;
+	border-radius: 5px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	transition: all .2s ease-in-out;
+}
+
+.switch2:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+	background-color: #8EE4AF;
+	color: #000;
+	border: 2px solid #fff;
 }
