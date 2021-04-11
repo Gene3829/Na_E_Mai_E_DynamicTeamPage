@@ -3,7 +3,6 @@
 </p>
 <h1>Team Bio Page</h1>
 Meet students of the Interactive Media Program from Fanshawe College, Eugene Na and Evica Mai!
-Link: file:///D:/Fanshawe/IDP3_2/4%20Multi%20Auth/hw/team%20bio/Na_E_Mai_E_DynamicTeamPage/index.html#
 
 <h2>Collaborators:</h2>
 <ul>
